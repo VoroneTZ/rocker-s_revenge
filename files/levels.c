@@ -2,6 +2,7 @@
 
 function StartLevel1()
 {
+	level_load("lvl1.wmb");
 }
 
 function StartLevel2()
