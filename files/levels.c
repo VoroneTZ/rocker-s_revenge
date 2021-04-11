@@ -3,14 +3,18 @@
 function StartLevel1()
 {
 	level_load("lvl1.wmb");
+	FMusic=media_loop("files/metallica-fuel.mid",NULL,100);
 }
 
 function StartLevel2()
 {
+	level_load("lvl2.wmb");
+	FMusic=media_loop("files/megadeth-she_wolf.mid",NULL,100);
 }
 
 function StartLevel3()
 {
+		level_load("lvl3.wmb");
 }
 
 function StartLevel4()

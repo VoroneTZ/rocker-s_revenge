@@ -15,6 +15,8 @@ var debug=1;
 
 function StartLevel()
 {
+	media_stop(FMusic);
+	
 	reset(LevelSelect,SHOW);
 	var LevelId;
 	if (StartGame==1){LevelId=LevelProgressEasy; LevelMultiptex=0.5;}

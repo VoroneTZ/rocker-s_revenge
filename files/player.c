@@ -125,7 +125,7 @@ action ARealPlayer()
     }
     camera.x = my.x;
     camera.y = my.y - 4738;
-    camera.z = my.z + 176;
+    camera.z = my.z + 76;
     camera.pan = -270;
     camera.tilt = 0;
     wait(1);
