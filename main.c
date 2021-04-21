@@ -1,22 +1,25 @@
 ///////////////////////////////
 #include <acknex.h>
 #include <default.c>
-#define PRAGMA_PATH "files";
+
 #include "panels.c";
 #include "vars.c";
 #include "levels.c";
 #include "player.c";
 #include "npc.c";
 #include "enemy.c";
+#include "other.c";
+
 
 ///////////////////////////////
 
-var debug=1;
-
 function StartLevel()
 {
+	FPlayerHealth=20*(0.5/LevelMultiptex);
+FPlayerLife=1;
 	media_stop(FMusic);
 	
+	set(hud_pan, SHOW);
 	reset(LevelSelect,SHOW);
 	var LevelId;
 	if (StartGame==1){LevelId=LevelProgressEasy; LevelMultiptex=0.5;}
@@ -47,7 +50,7 @@ function StartLevel()
 function FirstTitles()
 {
 	
-	FMusic=media_loop("files/black_sabbath-paranoid.mid",NULL,100);
+	FMusic=media_loop("files/metallica-master_of_puppets.mid",NULL,100);
 	panel_black.alpha = 100;
 	var i=50;
 	
@@ -56,6 +59,9 @@ function FirstTitles()
   
   main_menu.pos_x = (screen_size.x - bmap_width(main_menu.bmap))/2; 
   main_menu.pos_y = (screen_size.y - bmap_height(main_menu.bmap))/2;
+  
+  panel_dialog.pos_x = (screen_size.x - bmap_width(panel_dialog.bmap))/2;
+  
   
   vtz_logo.pos_x = (screen_size.x - bmap_width(vtz_logo.bmap))/2; 
   vtz_logo.pos_y = (screen_size.y - bmap_height(vtz_logo.bmap))/2;
@@ -107,6 +113,12 @@ while (panel_black.alpha >1)
   panel_black.alpha =100;
 	reset(zo_logo,SHOW);
 }
+else
+{
+	 LevelMaxEasy=20;
+ LevelMaxNormal=20;
+ LevelMaxHard=20;
+}
 	set(main_menu,SHOW);
 	while (panel_black.alpha >1)
 	{
@@ -123,6 +135,8 @@ function main()
 {
 	var i=0;	
   video_mode = 12;
+	
+ // video_screen = 1;
   mouse_mode = 4; 
   wait(1);
   vec_set(screen_color,vector(1,1,1)); // dark blue
@@ -140,12 +154,41 @@ camera.arc=20;
   FirstTitles();
   
   
-  DialogLoop();
+ DialogLoop();
   
   while (1)
   {
   		if (StartGame>0){StartLevel();StartGame=0;}
-		wait(1);
+  		compass_x = 415-((415/(20*(0.5/LevelMultiptex)))*(FPlayerHealth));
+  		if (FFHitPlayer==1){
+  		if (FPlayerHitTimer < 1)
+  {
+  	FFHitPlayer=0;
+    snd_play(hit_snd, 100, 0);
+    FPlayerHitTimer = 8;
+    FPlayerHealth -= 1;
+    if (FPlayerHealth < 1)
+    {
+      FPlayerLife -= 1;
+      if (FPlayerLife > 0)
+      {
+        FPlayerHealth = 4;
+      }
+      else
+      {
+        GameOver();
+      }
+    }
+    while (FPlayerHitTimer>0)
+	{		
+	FPlayerHitTimer -= (1 * time_step)*LevelMultiptex;
+	wait(1);			
+	}	
+  }}
+  		
+  		
+  		wait(1);
+	
   }
  
 }

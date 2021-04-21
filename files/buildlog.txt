@@ -1517,3 +1517,2823 @@ Lightmap space 576 Kb
 Time:   7.0 sec
 
  
+-dialog lvl3.$$M -pal palette.pcx -az 90 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................. ok 
+Building narrow hull .................. ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ...................... ok
+Checking midpoints ... ok 
+Generating 1936 portals ................................... ok 
+Placing 19 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .......................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps .......................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3293 vertices 
+2126 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+445 regions ok
+ 
+Time:   7.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 180 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................. ok 
+Building narrow hull ................... ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ...................... ok
+Checking midpoints ... ok 
+Generating 1967 portals ................................... ok 
+Placing 19 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ......................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ......................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3260 vertices 
+2102 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+450 regions ok
+ 
+Time:   6.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 180 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................. ok 
+Building narrow hull ..................... ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ....................... ok
+Checking midpoints ... ok 
+Generating 2046 portals ..................................... ok 
+Placing 19 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ........................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3333 vertices 
+2158 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+468 regions ok
+ 
+Time:   7.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 180 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 20 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+468 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 180 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 20 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+468 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 180 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................. ok 
+Building narrow hull ..................... ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ....................... ok
+Checking midpoints ... ok 
+Generating 2050 portals ..................................... ok 
+Placing 20 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ........................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3327 vertices 
+2155 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+468 regions ok
+ 
+Time:   7.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 180 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................. ok 
+Building narrow hull ..................... ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ....................... ok
+Checking midpoints ... ok 
+Generating 1990 portals .................................... ok 
+Placing 20 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ........................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3354 vertices 
+2174 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+457 regions ok
+ 
+Time:   7.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 180 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................. ok 
+Building narrow hull ..................... ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ....................... ok
+Checking midpoints ... ok 
+Generating 1988 portals .................................... ok 
+Placing 20 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ........................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3351 vertices 
+2172 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+457 regions ok
+ 
+Time:   7.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................. ok 
+Building narrow hull ..................... ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ....................... ok
+Checking midpoints ... ok 
+Generating 1988 portals .................................... ok 
+Placing 20 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ........................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3351 vertices 
+2172 visible surfaces 
+14 textures 
+Texture	space 734 Kb 
+Lightmap space 576 Kb 
+457 regions ok
+ 
+Time:   8.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................... ok 
+Building narrow hull ..................... ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ....................... ok
+Checking midpoints ... ok 
+Generating 2016 portals .................................... ok 
+Placing 24 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ............................................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ............................................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3409 vertices 
+2204 visible surfaces 
+15 textures 
+Texture	space 904 Kb 
+Lightmap space 384 Kb 
+469 regions ok
+ 
+Time:   8.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 28 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+15 textures 
+Texture	space 904 Kb 
+Lightmap space 384 Kb 
+469 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 31 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+15 textures 
+Texture	space 904 Kb 
+Lightmap space 384 Kb 
+469 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................... ok 
+Building narrow hull ..................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ........................ ok
+Checking midpoints ... ok 
+Generating 2231 portals ........................................ ok 
+Placing 31 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .................................................................................. ok 
+Radiosity disabled. 
+Generating lightmaps .................................................................................. ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3644 vertices 
+2369 visible surfaces 
+17 textures 
+Texture	space 918 Kb 
+Lightmap space 384 Kb 
+516 regions ok
+ 
+Time:   8.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 35 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 918 Kb 
+Lightmap space 384 Kb 
+516 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 35 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 918 Kb 
+Lightmap space 384 Kb 
+516 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................... ok 
+Building narrow hull ..................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ........................ ok
+Checking midpoints ... ok 
+Generating 2229 portals ........................................ ok 
+Placing 35 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .................................................................................. ok 
+Radiosity disabled. 
+Generating lightmaps .................................................................................. ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3654 vertices 
+2375 visible surfaces 
+17 textures 
+Texture	space 918 Kb 
+Lightmap space 384 Kb 
+517 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................... ok 
+Building narrow hull ..................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ........................ ok
+Checking midpoints ... ok 
+Generating 2228 portals ........................................ ok 
+Placing 35 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .................................................................................. ok 
+Radiosity disabled. 
+Generating lightmaps .................................................................................. ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3654 vertices 
+2375 visible surfaces 
+17 textures 
+Texture	space 918 Kb 
+Lightmap space 384 Kb 
+517 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................... ok 
+Building narrow hull ..................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ........................ ok
+Checking midpoints ... ok 
+Generating 2229 portals ........................................ ok 
+Placing 35 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .................................................................................. ok 
+Radiosity disabled. 
+Generating lightmaps .................................................................................. ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3656 vertices 
+2376 visible surfaces 
+17 textures 
+Texture	space 918 Kb 
+Lightmap space 384 Kb 
+517 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull .................... ok 
+Building narrow hull ..................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ........................ ok
+Checking midpoints ... ok 
+Generating 2237 portals ........................................ ok 
+Placing 35 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .................................................................................. ok 
+Radiosity disabled. 
+Generating lightmaps .................................................................................. ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3671 vertices 
+2383 visible surfaces 
+17 textures 
+Texture	space 918 Kb 
+Lightmap space 384 Kb 
+518 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ....................... ok 
+Building narrow hull ....................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces .......................... ok
+Checking midpoints ... ok 
+Generating 2439 portals ........................................... ok 
+Placing 37 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ..................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ..................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3811 vertices 
+2464 visible surfaces 
+19 textures 
+Texture	space 966 Kb 
+Lightmap space 1152 Kb 
+568 regions ok
+ 
+Time:  12.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 1 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 1]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ....................... ok 
+Building narrow hull ....................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces .......................... ok
+Checking midpoints ... ok 
+Generating 2433 portals ........................................... ok 
+Placing 38 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ..................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ..................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3818 vertices 
+2471 visible surfaces 
+19 textures 
+Texture	space 966 Kb 
+Lightmap space 1152 Kb 
+566 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ....................... ok 
+Building narrow hull ....................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces .......................... ok
+Checking midpoints ... ok 
+Generating 2433 portals ........................................... ok 
+Placing 38 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ..................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ..................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13530 units 
+3818 vertices 
+2471 visible surfaces 
+19 textures 
+Texture	space 966 Kb 
+Lightmap space 1152 Kb 
+566 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ....................... ok 
+Building narrow hull ....................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ........................... ok
+Checking midpoints ... ok 
+Generating 2732 portals ................................................ ok 
+Placing 45 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ....................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ....................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13520 units 
+3939 vertices 
+2573 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+628 regions ok
+ 
+Time:   8.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ....................... ok 
+Building narrow hull ....................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ........................... ok
+Checking midpoints ... ok 
+Generating 2732 portals ................................................ ok 
+Placing 45 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ....................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ....................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 13520 units 
+3939 vertices 
+2573 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+628 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog door.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 12 portals ... ok 
+Placing 1 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .... ok 
+Radiosity disabled. 
+Generating lightmaps .... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 320 units 
+8 vertices 
+6 visible surfaces 
+1 textures 
+Texture	space 43 Kb 
+Lightmap space 384 Kb 
+7 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog door.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 12 portals ... ok 
+Placing 1 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .... ok 
+Radiosity disabled. 
+Generating lightmaps .... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 410 units 
+8 vertices 
+6 visible surfaces 
+1 textures 
+Texture	space 43 Kb 
+Lightmap space 384 Kb 
+7 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog door.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 12 portals ... ok 
+Placing 1 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .... ok 
+Radiosity disabled. 
+Generating lightmaps .... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 410 units 
+8 vertices 
+6 visible surfaces 
+1 textures 
+Texture	space 43 Kb 
+Lightmap space 384 Kb 
+7 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog door.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 12 portals ... ok 
+Placing 1 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights .... ok 
+Radiosity disabled. 
+Generating lightmaps .... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 420 units 
+8 vertices 
+6 visible surfaces 
+1 textures 
+Texture	space 43 Kb 
+Lightmap space 384 Kb 
+7 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ....................... ok 
+Building narrow hull ........................ ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2841 portals .................................................. ok 
+Placing 47 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ........................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 12950 units 
+4060 vertices 
+2662 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ....................... ok 
+Building narrow hull ........................ ok 
+Building BSP tree ......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2841 portals .................................................. ok 
+Placing 48 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ........................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 12950 units 
+4060 vertices 
+2662 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 48 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 48 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 50 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 50 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 50 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 50 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 50 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+20 textures 
+Texture	space 976 Kb 
+Lightmap space 576 Kb 
+653 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ......................... ok 
+Building narrow hull .......................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2957 portals .................................................... ok 
+Placing 74 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ............................................................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ............................................................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17330 units 
+4114 vertices 
+2709 visible surfaces 
+21 textures 
+Texture	space 1019 Kb 
+Lightmap space 768 Kb 
+672 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ......................... ok 
+Building narrow hull .......................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2957 portals .................................................... ok 
+Placing 74 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ............................................................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ............................................................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17330 units 
+4114 vertices 
+2709 visible surfaces 
+21 textures 
+Texture	space 1019 Kb 
+Lightmap space 1344 Kb 
+672 regions ok
+ 
+Time:  10.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ......................... ok 
+Building narrow hull .......................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2957 portals .................................................... ok 
+Placing 78 objects ..... ok 
+Prepare lighting ... ok 
+Generating 5 direct lights ............................................................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ............................................................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17330 units 
+4114 vertices 
+2709 visible surfaces 
+21 textures 
+Texture	space 1019 Kb 
+Lightmap space 768 Kb 
+672 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ......................... ok 
+Building narrow hull .......................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2957 portals .................................................... ok 
+Placing 79 objects ..... ok 
+Prepare lighting ... ok 
+Generating 5 direct lights ............................................................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ............................................................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17330 units 
+4114 vertices 
+2709 visible surfaces 
+21 textures 
+Texture	space 1019 Kb 
+Lightmap space 768 Kb 
+672 regions ok
+ 
+Time:  10.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 79 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+21 textures 
+Texture	space 1019 Kb 
+Lightmap space 768 Kb 
+672 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ......................... ok 
+Building narrow hull .......................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2945 portals .................................................... ok 
+Placing 79 objects ..... ok 
+Prepare lighting ... ok 
+Generating 5 direct lights ........................................................................................... ok 
+Radiosity disabled. 
+Generating lightmaps ........................................................................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17330 units 
+4093 vertices 
+2693 visible surfaces 
+21 textures 
+Texture	space 1019 Kb 
+Lightmap space 1344 Kb 
+671 regions ok
+ 
+Time:   9.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ......................... ok 
+Building narrow hull .......................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2984 portals .................................................... ok 
+Placing 79 objects ..... ok 
+Prepare lighting ... ok 
+Generating 5 direct lights ............................................................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ............................................................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17350 units 
+4129 vertices 
+2717 visible surfaces 
+23 textures 
+Texture	space 1072 Kb 
+Lightmap space 768 Kb 
+681 regions ok
+ 
+Time:  10.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ......................... ok 
+Building narrow hull .......................... ok 
+Building BSP tree .......... ok 
+Tesselating surfaces ............................ ok
+Checking midpoints ... ok 
+Generating 2984 portals .................................................... ok 
+Placing 79 objects ..... ok 
+Prepare lighting ... ok 
+Generating 5 direct lights ............................................................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ............................................................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17350 units 
+4129 vertices 
+2717 visible surfaces 
+23 textures 
+Texture	space 1072 Kb 
+Lightmap space 768 Kb 
+681 regions ok
+ 
+Time:  10.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 28 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 1152 Kb 
+322 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 14 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+66143792 textures 
+0 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull .... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ..... ok
+Checking midpoints ... ok 
+Generating 311 portals ........ ok 
+Placing 14 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ............ ok 
+Radiosity disabled. 
+Generating lightmaps ............ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 5930 units 
+360 vertices 
+243 visible surfaces 
+6 textures 
+Texture	space 280 Kb 
+Lightmap space 576 Kb 
+92 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull .... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ..... ok
+Checking midpoints ... ok 
+Generating 311 portals ........ ok 
+Placing 14 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ............ ok 
+Radiosity disabled. 
+Generating lightmaps ............ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 5930 units 
+360 vertices 
+243 visible surfaces 
+6 textures 
+Texture	space 280 Kb 
+Lightmap space 576 Kb 
+92 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ..... ok 
+Building narrow hull ...... ok 
+Building BSP tree .... ok 
+Tesselating surfaces ..... ok
+Checking midpoints ... ok 
+Generating 464 portals .......... ok 
+Placing 20 objects ..... ok 
+Prepare lighting ... ok 
+Generating 3 direct lights ................ ok 
+Radiosity disabled. 
+Generating lightmaps ................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 7160 units 
+571 vertices 
+383 visible surfaces 
+8 textures 
+Texture	space 333 Kb 
+Lightmap space 576 Kb 
+135 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ...... ok 
+Building narrow hull ...... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ..... ok
+Checking midpoints ... ok 
+Generating 486 portals ........... ok 
+Placing 25 objects ..... ok 
+Prepare lighting ... ok 
+Generating 4 direct lights ................ ok 
+Radiosity disabled. 
+Generating lightmaps ................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 8080 units 
+559 vertices 
+377 visible surfaces 
+10 textures 
+Texture	space 386 Kb 
+Lightmap space 576 Kb 
+139 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ...... ok 
+Building narrow hull ........ ok 
+Building BSP tree .... ok 
+Tesselating surfaces ........ ok
+Checking midpoints ... ok 
+Generating 747 portals ............... ok 
+Placing 29 objects ..... ok 
+Prepare lighting ... ok 
+Generating 8 direct lights ..................... ok 
+Radiosity disabled. 
+Generating lightmaps ..................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 11780 units 
+792 vertices 
+542 visible surfaces 
+12 textures 
+Texture	space 471 Kb 
+Lightmap space 1152 Kb 
+209 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ...... ok 
+Building narrow hull ........ ok 
+Building BSP tree .... ok 
+Tesselating surfaces ........ ok
+Checking midpoints ... ok 
+Generating 747 portals ............... ok 
+Placing 32 objects ..... ok 
+Prepare lighting ... ok 
+Generating 8 direct lights ..................... ok 
+Radiosity disabled. 
+Generating lightmaps ..................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 11780 units 
+792 vertices 
+542 visible surfaces 
+12 textures 
+Texture	space 471 Kb 
+Lightmap space 1152 Kb 
+209 regions ok
+ 
+Time:   2.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............ ok 
+Building narrow hull ............ ok 
+Building BSP tree ..... ok 
+Tesselating surfaces ............ ok
+Checking midpoints ... ok 
+Generating 1469 portals ........................... ok 
+Placing 45 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ................................... ok 
+Radiosity disabled. 
+Generating lightmaps ................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 14650 units 
+1369 vertices 
+979 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+373 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............ ok 
+Building narrow hull ............ ok 
+Building BSP tree ..... ok 
+Tesselating surfaces ............ ok
+Checking midpoints ... ok 
+Generating 1469 portals ........................... ok 
+Placing 45 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ................................... ok 
+Radiosity disabled. 
+Generating lightmaps ................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 14650 units 
+1369 vertices 
+979 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+373 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............ ok 
+Building narrow hull ............ ok 
+Building BSP tree ..... ok 
+Tesselating surfaces ............ ok
+Checking midpoints ... ok 
+Generating 1469 portals ........................... ok 
+Placing 46 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ................................... ok 
+Radiosity disabled. 
+Generating lightmaps ................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 14650 units 
+1369 vertices 
+979 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+373 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............ ok 
+Building narrow hull ............ ok 
+Building BSP tree ..... ok 
+Tesselating surfaces ............ ok
+Checking midpoints ... ok 
+Generating 1469 portals ........................... ok 
+Placing 46 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ................................... ok 
+Radiosity disabled. 
+Generating lightmaps ................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 14650 units 
+1369 vertices 
+979 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 960 Kb 
+373 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............ ok 
+Building narrow hull ............ ok 
+Building BSP tree ..... ok 
+Tesselating surfaces ............ ok
+Checking midpoints ... ok 
+Generating 1525 portals ............................ ok 
+Placing 46 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights .................................... ok 
+Radiosity disabled. 
+Generating lightmaps .................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 14650 units 
+1443 vertices 
+1029 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+385 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 66 portals .... ok 
+Placing 7 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 2580 units 
+45 vertices 
+31 visible surfaces 
+2 textures 
+Texture	space 86 Kb 
+20 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 66 portals .... ok 
+Placing 7 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 2580 units 
+45 vertices 
+31 visible surfaces 
+2 textures 
+Texture	space 86 Kb 
+20 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 66 portals .... ok 
+Placing 7 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 6780 units 
+60 vertices 
+40 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+22 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 88 portals .... ok 
+Placing 7 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights .... ok 
+Radiosity disabled. 
+Generating lightmaps .... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 6790 units 
+32 vertices 
+24 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+Lightmap space 576 Kb 
+22 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ... ok 
+Building narrow hull ...... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ... ok
+Checking midpoints ... ok 
+Generating 301 portals ........ ok 
+Placing 11 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ........... ok 
+Radiosity disabled. 
+Generating lightmaps ........... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 2910 units 
+314 vertices 
+238 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............ ok 
+Building narrow hull ............ ok 
+Building BSP tree ..... ok 
+Tesselating surfaces ............ ok
+Checking midpoints ... ok 
+Generating 1532 portals ............................ ok 
+Placing 46 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights .................................... ok 
+Radiosity disabled. 
+Generating lightmaps .................................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 14650 units 
+1441 vertices 
+1035 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 46 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 47 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 47 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 47 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 51 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 51 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 51 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 12 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 12 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............... ok 
+Building narrow hull ................. ok 
+Building BSP tree ....... ok 
+Tesselating surfaces ............... ok
+Checking midpoints ... ok 
+Generating 1338 portals ......................... ok 
+Placing 30 objects ..... ok 
+Prepare lighting ... ok 
+Generating 4 direct lights ................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 9070 units 
+2078 vertices 
+1351 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............... ok 
+Building narrow hull ................. ok 
+Building BSP tree ....... ok 
+Tesselating surfaces ............... ok
+Checking midpoints ... ok 
+Generating 1338 portals ......................... ok 
+Placing 30 objects ..... ok 
+Prepare lighting ... ok 
+Generating 4 direct lights ................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 9070 units 
+2078 vertices 
+1351 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............... ok 
+Building narrow hull ................. ok 
+Building BSP tree ....... ok 
+Tesselating surfaces ............... ok
+Checking midpoints ... ok 
+Generating 1337 portals ......................... ok 
+Placing 30 objects ..... ok 
+Prepare lighting ... ok 
+Generating 4 direct lights ................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 9100 units 
+2075 vertices 
+1349 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............... ok 
+Building narrow hull ................. ok 
+Building BSP tree ....... ok 
+Tesselating surfaces ............... ok
+Checking midpoints ... ok 
+Generating 1337 portals ......................... ok 
+Placing 31 objects ..... ok 
+Prepare lighting ... ok 
+Generating 4 direct lights ................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 9100 units 
+2075 vertices 
+1349 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 31 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 31 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 31 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -preview -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............... ok 
+Building narrow hull ................. ok 
+Building BSP tree ....... ok 
+Tesselating surfaces ............... ok
+Checking midpoints ... ok 
+Placing 31 objects ..... ok 
+Prepare lighting ... ok 
+Generating 4 direct lights ................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 9100 units 
+2075 vertices 
+1349 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ............... ok 
+Building narrow hull ................. ok 
+Building BSP tree ....... ok 
+Tesselating surfaces ............... ok
+Checking midpoints ... ok 
+Generating 1337 portals ......................... ok 
+Placing 31 objects ..... ok 
+Prepare lighting ... ok 
+Generating 4 direct lights ................................................ ok 
+Radiosity disabled. 
+Generating lightmaps ................................................ ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 9100 units 
+2075 vertices 
+1349 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 12 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl1.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 12 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+9 textures 
+Texture	space 320 Kb 
+Lightmap space 384 Kb 
+88 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 38 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 39 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 39 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 39 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl2.$$M -pal palette.pcx -az 0 -el 90 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 39 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+14 textures 
+Texture	space 660 Kb 
+Lightmap space 384 Kb 
+319 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 99 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+23 textures 
+Texture	space 1072 Kb 
+Lightmap space 768 Kb 
+681 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl3.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 99 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+23 textures 
+Texture	space 1072 Kb 
+Lightmap space 768 Kb 
+681 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl4.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 62 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+17 textures 
+Texture	space 652 Kb 
+Lightmap space 768 Kb 
+386 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+Lightmap space 576 Kb 
+22 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+Lightmap space 576 Kb 
+22 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+Lightmap space 576 Kb 
+22 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+Lightmap space 576 Kb 
+22 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 11 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+Lightmap space 576 Kb 
+22 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl41.$$M -pal palette.pcx -az 270 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -entsonly -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ...
+Updating 12 objects...
+ ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+3 textures 
+Texture	space 128 Kb 
+Lightmap space 576 Kb 
+22 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl42.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ...... 
+WARNING W091: Region disaligned!
+.. ok 
+Building narrow hull ......... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ........ ok
+Checking midpoints ... ok 
+Generating 1056 portals .................... ok 
+Placing 56 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ......................... ok 
+Radiosity disabled. 
+Generating lightmaps ......................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17130 units 
+930 vertices 
+673 visible surfaces 
+16 textures 
+Texture	space 777 Kb 
+Lightmap space 576 Kb 
+267 regions ok
+ 
+Time:   2.0 sec
+
+ 
+-dialog lvl42.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ...... 
+WARNING W091: Region disaligned!
+.. ok 
+Building narrow hull ......... ok 
+Building BSP tree ... ok 
+Tesselating surfaces ........ ok
+Checking midpoints ... ok 
+Generating 1056 portals .................... ok 
+Placing 56 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ......................... ok 
+Radiosity disabled. 
+Generating lightmaps ......................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 17130 units 
+930 vertices 
+673 visible surfaces 
+16 textures 
+Texture	space 777 Kb 
+Lightmap space 768 Kb 
+267 regions ok
+ 
+Time:   2.0 sec
+
+ 
+-dialog lvl42.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ........ ok 
+Building narrow hull ........... ok 
+Building BSP tree .... ok 
+Tesselating surfaces ......... ok
+Checking midpoints ... ok 
+Generating 1241 portals ....................... ok 
+Placing 50 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights .............................. ok 
+Radiosity disabled. 
+Generating lightmaps .............................. ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 12970 units 
+1169 vertices 
+832 visible surfaces 
+17 textures 
+Texture	space 1234 Kb 
+Lightmap space 576 Kb 
+299 regions ok
+ 
+Time:   2.0 sec
+
+ 
+-dialog lvl42.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ........ ok 
+Building narrow hull ........... ok 
+Building BSP tree .... ok 
+Tesselating surfaces ......... ok
+Checking midpoints ... ok 
+Generating 1349 portals ......................... ok 
+Placing 50 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ............................... ok 
+Radiosity disabled. 
+Generating lightmaps ............................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 12970 units 
+1187 vertices 
+853 visible surfaces 
+17 textures 
+Texture	space 1234 Kb 
+Lightmap space 768 Kb 
+327 regions ok
+ 
+Time:   3.0 sec
+
+ 
+-dialog lvl42.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ........ ok 
+Building narrow hull ........... ok 
+Building BSP tree .... ok 
+Tesselating surfaces ......... ok
+Checking midpoints ... ok 
+Generating 1299 portals ........................ ok 
+Placing 50 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ............................... ok 
+Radiosity disabled. 
+Generating lightmaps ............................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 12970 units 
+1205 vertices 
+867 visible surfaces 
+17 textures 
+Texture	space 1234 Kb 
+Lightmap space 960 Kb 
+311 regions ok
+ 
+Time:   2.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 5 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 5 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 5 objects ..... ok 
+Prepare lighting ... ok 
+Generating 1 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 6 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 6 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 58 58 58 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 4 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   1.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 75 75 75 -ambrgb 19 19 19  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 5 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 75 75 75 -ambrgb 75 75 75  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 5 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl43.$$M -pal palette.pcx -az 0 -el 60 -sunrgb 75 75 75 -ambrgb 75 75 75  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Placing 4 objects ..... ok 
+Prepare lighting ... ok 
+Generating 2 direct lights ... ok 
+Radiosity disabled. 
+Generating lightmaps ... ok
+Generating meshes ... ok
+Writing WMB file ... 
+0 vertices 
+0 visible surfaces 
+0 textures 
+Texture	space 1 Kb 
+1 regions ok
+ 
+Time:   0.0 sec
+
+ 
+-dialog lvl42.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ........ ok 
+Building narrow hull ........... ok 
+Building BSP tree .... ok 
+Tesselating surfaces ......... ok
+Checking midpoints ... ok 
+Generating 1299 portals ........................ ok 
+Placing 50 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ............................... ok 
+Radiosity disabled. 
+Generating lightmaps ............................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 12970 units 
+1205 vertices 
+867 visible surfaces 
+17 textures 
+Texture	space 1234 Kb 
+Lightmap space 768 Kb 
+311 regions ok
+ 
+Time:   2.0 sec
+
+ 
+-dialog lvl42.$$M -pal palette.pcx -az 270 -el 80 -sunrgb 62 62 62 -ambrgb 23 23 23  -fog1 100 100 100  -fog2 19 39 100  -fog3 100 19 19 -noportals -hiprec -writelog -mesh -close -invisibletonone -nodetail -threads 8 -gamma 1.50 -phongangle 120  -lmambient 50  -sizeshaded 236 -litres 1.00 -litcomp 0.50 -litmax 196 -litscale 0.50 -radsubdiv 64 -radbounce 0 -bound 56000 -fat 64  48  8  -narrow 32  32  0  
+WMP to WMB Compiler V7.35 (WMB7 BSP) [CPUs: 8]
+ Report mode: DEFAULT
+
+Initialize map  ... [Load map] ...  ok 
+Building fat hull ........ ok 
+Building narrow hull ........... ok 
+Building BSP tree .... ok 
+Tesselating surfaces ......... ok
+Checking midpoints ... ok 
+Generating 1299 portals ........................ ok 
+Placing 50 objects ..... ok 
+Prepare lighting ... ok 
+Generating 11 direct lights ............................... ok 
+Radiosity disabled. 
+Generating lightmaps ............................... ok
+Generating meshes ... ok
+Writing WMB file ... 
+Level size 12970 units 
+1205 vertices 
+867 visible surfaces 
+17 textures 
+Texture	space 1234 Kb 
+Lightmap space 768 Kb 
+311 regions ok
+ 
+Time:   3.0 sec
+
+ 
