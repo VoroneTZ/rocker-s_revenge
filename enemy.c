@@ -11,7 +11,7 @@ action ANPC()
 			while (my.skill4==0){wait(1);}
 	
 	var j=100;
-	my.skill5=1;
+	my.skill5=2*LevelMultiptex;
 	vec_set(my.min_x,vector(-20,-20,-240)); // set bounding box to individual values
    vec_set(my.max_x,vector(20,20,150));
 	//set(my,PASSABLE);
@@ -41,7 +41,7 @@ action ANPC()
          speed_down = 0;
       lplayer_direction =0; 
       if (FPlayerLife>0){
-      if (vec_dist(my.x,player.x) >my.skill3) 
+      if ((vec_dist(my.x,player.x) >my.skill3)&&((lattackpercent==0)||(lattacktimer == my.skill1))) 
       {
       	if (vec_dist(my.x,player.x)  <my.skill2)
       	{
@@ -71,7 +71,8 @@ action ANPC()
       	else
       	{
       		my.frame = 6+lattackpercent/30;
-      		if (FPlayerAttack>50){my.skill5=0;snd_play(hit_snd,100,0);}
+      		if (vec_dist(my.x,player.x)  <my.skill3){
+      		if (FPlayerAttack>50){my.skill5=my.skill5-FPlayerWeaponMuliplex* FAttackType;snd_play(hit_snd,100,0); if (my.skill5>0){my.frame = 1; lattacktimer = my.skill1; lattackpercent=0; wait(-1);}}}
       		lattackpercent=lattackpercent+(10*time_step*LevelMultiptex);
       		if (lattackpercent>90)
       		{
@@ -83,7 +84,7 @@ action ANPC()
       			if (vec_dist(my.x,player.x)  <my.skill3)
       			{
       				FHitPlayer();
-      				j=j-1;
+      				j=j-1*time_step;
       				//lattacktimer = my.skill1;
       				
       			}
@@ -101,7 +102,7 @@ action ANPC()
 	}
 	set(my,PASSABLE);
 	my.frame = 9;
-	FPlayerPickupCount=FPlayerPickupCount+j;
+	FPlayerPickupCount=FPlayerPickupCount+(j*LevelMultiptex);
 	deathcounter=deathcounter+1;
 //	ent_remove(me);
 }
@@ -257,14 +258,16 @@ ShowDialog=0;
       	else
       	{
       		my.frame = 7+lattackpercent/30;
+      		if (vec_dist(my.x,player.x) <my.skill3){
       		if (FPlayerAttack>50)
       		{
       			my.frame = 13;	
-      			my.skill5=my.skill5-(0.5*(0.5/LevelMultiptex)); //получение урона
+      			my.skill5=my.skill5-((FAttackType*FPlayerWeaponMuliplex/2)*(0.5/LevelMultiptex)); //получение урона
       			snd_play(hit_snd,100,0);
+      			lattackpercent=0;
       			wait(-1);
-      		}
-      		lattackpercent=lattackpercent+(10*time_step*LevelMultiptex);
+      		}}
+      		lattackpercent=lattackpercent+(10*time_step*(LevelMultiptex));
       		if (lattackpercent>90)
       		{
       			lattacktimer= my.skill1;
@@ -272,10 +275,10 @@ ShowDialog=0;
       		}
       		if (lattackpercent>50)
       		{
-      			if (vec_dist(my.x,player.x)  <my.skill3)
+      			if ((vec_dist(my.x,player.x)  <my.skill3)&&(FFHitPlayer==0))
       			{
       				FHitPlayer();
-      				boss_coins = boss_coins-1;
+      				boss_coins = boss_coins-1*time_step;
       				//lattacktimer = my.skill1;
       				
       			}
@@ -294,7 +297,7 @@ ShowDialog=0;
 
 	my.frame = 14;	
 	//FPlayerCanMove = 0;
-	FPlayerPickupCount = FPlayerPickupCount+boss_coins;
+	FPlayerPickupCount = FPlayerPickupCount+(boss_coins*LevelMultiptex);
 
 	reset(panel_boss,SHOW);
 	

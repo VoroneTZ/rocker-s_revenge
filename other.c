@@ -1,13 +1,32 @@
 #include "vars.c";
 #include "enemy.c";
 SOUND* lift_snd = "files/machan.wav"; 
-
+SOUND* cage_snd = "files/explo.wav"; 
 
 action cutscenesprite()
 {
 	my.scale_x = 1.907;
 		my.scale_y = 1.907;
 			my.scale_z = 1.907;
+}
+
+action guitarV()
+{
+	if 
+	(FWeaponRating[1][0]==0){
+	while (vec_dist(my.x,player.x)>50)
+	{
+		wait(1);
+}
+FWeaponRating[1][0]=1;
+if (FStudyGuitar==0){
+DialogId =-1;
+	ShowDialog=1;
+	wait(-2);
+	ShowDialog=0;
+	FStudyGuitar=1;}
+}	
+	ent_remove(me);
 }
 
 //5 wait, 6 count,7 type
@@ -58,11 +77,13 @@ my.scale_x = 0.769;
 			my.scale_z = 0.769;
 			while(1)
 			{
-				my.frame=1;
-	wait(-1);
-	my.frame=2;
-	wait(-1);
-}
+				if (FCutScene==0)
+				{my.frame=1;} else {my.frame=4;}
+				wait(-0.5);
+				if (FCutScene==0)
+				{my.frame=2;} else {my.frame=6;}
+				wait(-0.5);
+			}
 }
 
 function Level4Ending()
@@ -71,7 +92,7 @@ function Level4Ending()
 	wait(-2);
 	level_load("files/lvl43.wmb");
 	ENTITY* mv = ent_create("files/mv+2.dds",vector(43,0,86),amv);
-	ENTITY* pl = ent_create("files/player+20.dds",vector(-144,0,0),apl);
+	ENTITY* pl = ent_create("files/playerL+20.dds",vector(-144,0,0),apl);
 	fade_out();
 	wait(-1);
 	ShowDialog=1;
@@ -79,11 +100,13 @@ function Level4Ending()
 	wait(-2);
 	DialogId=16;
 	mv.frame=2;
+	FCutScene=1;
 	while(pl.x<21)
 	{
 		pl.x=pl.x+5*time_step;
 		wait(1);
 	}
+	FCutScene=0;
 	ENTITY* br = ent_create("files/beer.dds",vector(69,-10,20),abr);
 	DialogId=17;
 	wait(-4);
@@ -133,10 +156,38 @@ action Switch()
 	FKey=1;
 }
 
+action Elevator()
+{
+	while (vec_dist(my.x,player.x)>200)
+	{
+		wait(1);
+	}
+	wait(-2);
+	snd_play(lift_snd,100,0);
+	while (my.z<my.skill1)
+	{
+		player.z=player.z+8*time_step;
+		my.z=my.z+8*time_step;
+		wait(1);
+	}
+}
+
+
+action Cage()
+{
+	while (vec_dist(my.x,player.x)>300 || FAttackType!=3 || my.z>player.z || FPlayerWeapon!=0)
+	{
+		wait(1);
+	}
+	
+	snd_play(cage_snd,100,0);
+	ent_remove(me);
+}
+
 action end3()
 {
 	wait(-2);
-	while (vec_dist(my.x,player.x)>200)
+	while (vec_dist(my.x,player.x)>400)
 	{
 		wait(1);
 	}
@@ -169,15 +220,19 @@ action Train()
 	fade_out();
 	FPlayerCanMove =1;
 	deathcounter=0;
-	while(deathcounter<23)
+	deathcounterwork=1;
+	while((deathcounter<23)&&(deathcounterwork==1))
 	{
 		wait(1);
 	}
+	if (deathcounterwork==1)
+	{
+		deathcounterwork=0;
 	fade_in();
 		wait(-1);
 	level_load("lvl42.wmb");
 	fade_out();
-	
+	}
 }
 
 action Door()
@@ -220,6 +275,14 @@ action Vinyl()
 	}
 	FVinyls[my.skill1][my.skill2]=1;
 media_play("files/gtr.mp3",NULL,100);
+FPlayerPickupCount=FPlayerPickupCount+1000;
+if (FStudyVinyl==0){
+	set(my,INVISIBLE);
+DialogId =-2;
+	ShowDialog=1;
+	wait(-4);
+	ShowDialog=0;
+	FStudyVinyl=1;}
 }
 ent_remove(me);	
 }

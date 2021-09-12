@@ -56,12 +56,13 @@ function StartLevel1()
 	gen2.skill5=7;
 	gen2.skill6=5;
 	gen2.skill7=1;
-	
-	while(deathcounter<10)
+	deathcounterwork=1;
+	while((deathcounter<10) && (deathcounterwork==1))
 	{
 		wait(2);
 	}
-
+	if (deathcounterwork==1)
+	{deathcounterwork=0;
 	if (LevelMultiptex==0.5){LevelProgressEasy=2; if (LevelMaxEasy<2){LevelMaxEasy=2;}}
 	if (LevelMultiptex==1){LevelProgressNormal=2; if (LevelMaxNormal<2){LevelMaxNormal=2;}}
 	if (LevelMultiptex==2){LevelProgressHard=2;   if (LevelMaxHard<2){LevelMaxHard=2;}}
@@ -72,6 +73,7 @@ function StartLevel1()
 	if (LevelMultiptex==0.5){StartGame=1;}
 	if (LevelMultiptex==1){StartGame=2;}
 	if (LevelMultiptex==2){StartGame=3;}
+	}
 }
 
 function StartLevel2()
@@ -86,6 +88,7 @@ function StartLevel3()
 		level_load("files/lvl3.wmb");
 		fade_out();
 			FMusic=media_loop("files/zz_top-beer_drinkers_hell_raisers.mid",NULL,100);
+			
 		
 }
 
@@ -94,6 +97,9 @@ function StartLevel4()
 	level_load("files/lvl4.wmb");
 	fade_out();
 			FMusic=media_loop("files/osbourne_ozzy-crazy_train.mid",NULL,100);
+			ShowGuitar();
+			set(shop_menu,SHOW);
+			FPlayerCanMove=0;
 }
 
 

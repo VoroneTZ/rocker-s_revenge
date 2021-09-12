@@ -16,7 +16,7 @@
 function StartLevel()
 {
 	FPlayerHealth=20*(0.5/LevelMultiptex);
-FPlayerLife=1;
+	FPlayerLife=1;
 	media_stop(FMusic);
 	
 	set(hud_pan, SHOW);
@@ -45,17 +45,25 @@ FPlayerLife=1;
 	if (LevelId==18){StartLevel18();} else
 	if (LevelId==19){StartLevel19();} else
 	if (LevelId==20){StartLevel20();}	
+	on_esc=pause_game;
 }
 
 function FirstTitles()
 {
-	
+	panel_red.alpha=0;
 	FMusic=media_loop("files/metallica-master_of_puppets.mid",NULL,100);
 	panel_black.alpha = 100;
 	var i=50;
 	
 	LevelSelect.pos_x = (screen_size.x - bmap_width(LevelSelect.bmap))/2; 
   LevelSelect.pos_y = (screen_size.y - bmap_height(LevelSelect.bmap))/2;
+  
+  
+  	pan_pause.pos_x = (screen_size.x - bmap_width(pan_pause.bmap))/2; 
+  pan_pause.pos_y = (screen_size.y - bmap_height(pan_pause.bmap))/2;
+  
+    	pan_pause2.pos_x = (screen_size.x - bmap_width(pan_pause.bmap))/2; 
+  pan_pause2.pos_y = (screen_size.y - bmap_height(pan_pause.bmap))/2;
   
   main_menu.pos_x = (screen_size.x - bmap_width(main_menu.bmap))/2; 
   main_menu.pos_y = (screen_size.y - bmap_height(main_menu.bmap))/2;
@@ -65,6 +73,21 @@ function FirstTitles()
   
   vtz_logo.pos_x = (screen_size.x - bmap_width(vtz_logo.bmap))/2; 
   vtz_logo.pos_y = (screen_size.y - bmap_height(vtz_logo.bmap))/2;
+  
+  shop_menu.pos_x = (screen_size.x - bmap_width(shop_menu.bmap))/2; 
+  shop_menu.pos_y = (screen_size.y - bmap_height(shop_menu.bmap))/2;
+  
+  pan_guitar4.pos_x = ((screen_size.x - bmap_width(shop_menu.bmap))/2)+113; 
+  pan_guitar4.pos_y = ((screen_size.y - bmap_height(shop_menu.bmap))/2)+89;
+  
+    pan_guitar3.pos_x = ((screen_size.x - bmap_width(shop_menu.bmap))/2)+113; 
+  pan_guitar3.pos_y = ((screen_size.y - bmap_height(shop_menu.bmap))/2)+89;
+  
+    pan_guitar2.pos_x = ((screen_size.x - bmap_width(shop_menu.bmap))/2)+113; 
+  pan_guitar2.pos_y = ((screen_size.y - bmap_height(shop_menu.bmap))/2)+89;
+  
+    pan_guitar1.pos_x = ((screen_size.x - bmap_width(shop_menu.bmap))/2)+113; 
+  pan_guitar1.pos_y = ((screen_size.y - bmap_height(shop_menu.bmap))/2)+89;
   
   zo_logo.pos_x = (screen_size.x - bmap_width(zo_logo.bmap))/2; 
   zo_logo.pos_y = (screen_size.y - bmap_height(zo_logo.bmap))/2;
@@ -133,6 +156,8 @@ else
 
 function main()
 {
+	on_esc=beep;
+	FWeaponRating[0][0]=1;
 	var i=0;	
   video_mode = 12;
 	
@@ -152,18 +177,23 @@ function main()
 camera.arc=20;
   
   FirstTitles();
-  
+  FInventory[3]=1;
   
  DialogLoop();
   
   while (1)
   {
+  	if (key_1){if (FWeaponRating[0][0]==1){FPlayerWeapon=0;}}
+  	if (key_2){if (FWeaponRating[1][0]==1){FPlayerWeapon=1;}}
+  	if (key_3){if (FWeaponRating[2][0]==1){FPlayerWeapon=2;}}
+  	if (key_4){if (FWeaponRating[3][0]==1){FPlayerWeapon=3;}}
+  	if (key_5){if (FWeaponRating[4][0]==1){FPlayerWeapon=4;}}
+  	FPlayerWeaponMuliplex = 1+FWeaponRating[FPlayerWeapon][1]*0.25+FWeaponRating[FPlayerWeapon][2]*0.25+FWeaponRating[FPlayerWeapon][3]*0.25+FPlayerUpgrade[0]*0.25+FPlayerUpgrade[1]*0.4+FPlayerUpgrade[2]*0.3;
   		if (StartGame>0){StartLevel();StartGame=0;}
   		compass_x = 415-((415/(20*(0.5/LevelMultiptex)))*(FPlayerHealth));
   		if (FFHitPlayer==1){
   		if (FPlayerHitTimer < 1)
   {
-  	FFHitPlayer=0;
     snd_play(hit_snd, 100, 0);
     FPlayerHitTimer = 8;
     FPlayerHealth -= 1;
@@ -175,15 +205,30 @@ camera.arc=20;
         FPlayerHealth = 4;
       }
       else
-      {
-        GameOver();
+      {on_esc=beep;
+      	if (FInventory[3]>0)
+      	{
+      		freeze_mode=1;
+      		if (FPlayerLife!=-10) {FPlayerLife=0;}
+      		set(pan_pause2,SHOW);
+      		while (FPlayerLife==0)
+      		{
+      			wait(1);
+      		}
+      		reset(pan_pause2,SHOW);
+      		freeze_mode=0;
+      		if (FPlayerLife==-10){GameOver();}
+      	}
+      	else
+        {GameOver();}
       }
     }
     while (FPlayerHitTimer>0)
 	{		
 	FPlayerHitTimer -= (1 * time_step)*LevelMultiptex;
 	wait(1);			
-	}	
+	}
+	FFHitPlayer=0;	
   }}
   		
   		
