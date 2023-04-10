@@ -57,16 +57,16 @@ action ARealPlayer()
   {
     lacc = 0;
     fcrouch = false;
-    if (key_s && lcanjump==1) {
+    if ((key_s||(joy_force.y<0)) && lcanjump==1) {
       fcrouch = true;
     }
     else
     {
-      if (key_a) {
+      if (key_a||(joy_force.x<0)) {
         my.pan = 90;
         if (FAttackType==3 && FPlayerWeapon==1){lacc=3;}else{lacc = 1;}
       }
-      if (key_d) {
+      if (key_d||(joy_force.x>0)) {
         my.pan = 270;
         if (FAttackType==3 && FPlayerWeapon==1){lacc=3;}else{lacc = 1;}
       }
@@ -82,20 +82,20 @@ action ARealPlayer()
         speed_down = 0;
         if (FAttackType==3 && FPlayerWeapon==0){speed_down=50;lacc=0;} 
         
- 		if (lcanjump==-1 && mouse_left)
+ 		if (lcanjump==-1 && (mouse_left || joy_3) )
  		{
  			FAttackType=3;
  			FPlayerAttack = 51;
  		}
  		if (lcanjump!=-1 && FAttackType==3) {FAttackType=0;FPlayerAttack = 0;}
 
-      if (FPlayerAttack == 0 && mouse_left && FPlayerCanMove==1) {
+      if (FPlayerAttack == 0 && (mouse_left || joy_3)  && FPlayerCanMove==1) {
         FPlayerAttack = 1;
         FAttackType=1;
         snd_play(miss_snd, 100, 0);
       }
       
-      if (FPlayerAttack > 90 && mouse_left && FPlayerCanMove==1 && FAttackType==1)
+      if (FPlayerAttack > 90 && (mouse_left || joy_3) && FPlayerCanMove==1 && FAttackType==1)
       {
       	FPlayerAttack = 1;
       	FAttackType=2;
@@ -125,7 +125,7 @@ action ARealPlayer()
         if ((c_trace(my.x, vector(my.x, my.y, my.z - 5000), IGNORE_ME | IGNORE_PASSABLE | USE_BOX) < 1) && key_space == false) {
           lcanjump = 1;
         }
-        if (key_space && lcanjump!=-1) {
+        if ((key_space || joy_1) && lcanjump!=-1) {
           ljump = 150;
           lcanjump = lcanjump-1;
           lneedjumpacc = true;
@@ -175,11 +175,11 @@ action APlayer()
     my.y = player.y - 30;
     my.z = player.z;
 
-    if (key_a|| FCutScene ==5) {
+    if ((joy_force.x<0)||key_a|| FCutScene ==5) {
       my.pan = 90;
      // lacc = 1;
     }
-    if (key_d || FCutScene ==4) {
+    if ((joy_force.x>0)||key_d || FCutScene ==4) {
       my.pan = 270;
     //  lacc = 1;
     }
@@ -245,7 +245,7 @@ action APlayer()
         my.frame = 15;
       }
     }
-    else if (key_a || key_d || FCutScene == 1)
+    else if (joy_force.x || key_a || key_d || FCutScene == 1)
     {
       lanimpercent = lanimpercent + my.skill4 * 0.1 * time_step;
       if (lanimpercent > 4) {

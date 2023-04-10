@@ -405,14 +405,10 @@ function fade_in()
 	set(panel_black,SHOW);
 	panel_black.alpha = 0;
 	var i=50;
-//	while (i>1)
 	{
 	while (panel_black.alpha <80)
 	{
 		panel_black.alpha += 8*time_step; 
-	//	if (i>1)
-		//media_tune(FMusic,i,0,0);
-	//	i=i-0.2;
 		wait(2);
 	}
 	panel_black.alpha = 100;
@@ -424,15 +420,11 @@ function fade_out()
 {
 	media_tune(FMusic,1,0,0);
 	panel_black.alpha = 100;
-		var i=1;
-	
+	var i=1;	
 	{
 	while (panel_black.alpha >20)
 	{
 		panel_black.alpha -= 8*time_step; 
-	//	if (i<=50)
-	//	media_tune(FMusic,i,0,0);
-	 //  i=i+0.2;
 		wait(2);
 	}
 	panel_black.alpha = 0;

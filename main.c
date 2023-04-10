@@ -46,6 +46,7 @@ function StartLevel()
 	if (LevelId==19){StartLevel19();} else
 	if (LevelId==20){StartLevel20();}	
 	on_esc=pause_game;
+	on_joy8=pause_game;
 }
 
 function FirstTitles()
@@ -183,6 +184,10 @@ camera.arc=20;
   
   while (1)
   {
+  	if (joy_hat==0)  {if (FWeaponRating[3][0]==1){FPlayerWeapon=3;}}
+  	if (joy_hat==180){if (FWeaponRating[0][0]==1){FPlayerWeapon=0;}}
+  	if (joy_hat==90) {if (FWeaponRating[1][0]==1){FPlayerWeapon=1;}}
+  	
   	if (key_1){if (FWeaponRating[0][0]==1){FPlayerWeapon=0;}}
   	if (key_2){if (FWeaponRating[1][0]==1){FPlayerWeapon=1;}}
   	if (key_3){if (FWeaponRating[2][0]==1){FPlayerWeapon=2;}}
