@@ -122,7 +122,7 @@ action ARealPlayer()
           speed_down = 0;
           lneedjumpacc = false;
         }
-        if ((c_trace(my.x, vector(my.x, my.y, my.z - 5000), IGNORE_ME | IGNORE_PASSABLE | USE_BOX) < 1) && key_space == false) {
+        if ((c_trace(my.x, vector(my.x, my.y, my.z - 5000), IGNORE_ME | IGNORE_PASSABLE | USE_BOX) < 1) && key_space == false && joy_1==false) {
           lcanjump = 1;
         }
         if ((key_space || joy_1) && lcanjump!=-1) {
