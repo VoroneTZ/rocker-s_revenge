@@ -180,7 +180,7 @@ action ABoss1()
     my.pan = 270;
   }
   random_seed(0);
-  while (vec_dist(my.x, player.x) > 500)   //æäåì èãðîêà
+  while (vec_dist(my.x, player.x) > 500)   //Г¦Г¤ГҐГ¬ ГЁГЈГ°Г®ГЄГ 
   {
     LAnimPercent = LAnimPercent + 1 * time_step;
     if (LAnimPercent > 20) {
@@ -191,28 +191,28 @@ action ABoss1()
       my.frame = 2;
     }
     wait(1);
-  }                             // çàïóñêàåì äèàëîã
+  }                             // Г§Г ГЇГіГ±ГЄГ ГҐГ¬ Г¤ГЁГ Г«Г®ГЈ
 
   FPlayerCanMove = 0;
   var ldiag = 4;
   if (debug == 0)
     while (ldiag < 13)
     {
-    	Dialog(5,ldiag);while(FDialog==1)
-    	{
-    		wait(-0.5);
-	      my.frame = 2;
-	      wait(-0.5);
-	      my.frame = 1;
+      Dialog(5, ldiag); while (FDialog == 1)
+      {
+        wait(-0.5);
+        my.frame = 2;
+        wait(-0.5);
+        my.frame = 1;
       }
-      
+
       ldiag = ldiag + 1;
     }
   ShowDialog = 0;
 
   FPlayerCanMove = 1;
 
-  // íà÷àëî áèòâû
+  // Г­Г Г·Г Г«Г® ГЎГЁГІГўГ»
 
   while (my.skill5 > 0)
   {
@@ -236,7 +236,7 @@ action ABoss1()
       speed_down = 0;
     lplayer_direction = 0;
     if (FPlayerLife > 0)
-      if (random (5) > 4.995) // ïóëÿåì ñóïåð ñïîñîáíîñòü
+      if (random (5) > 4.995) // ГЇГіГ«ГїГҐГ¬ Г±ГіГЇГҐГ° Г±ГЇГ®Г±Г®ГЎГ­Г®Г±ГІГј
       {
         my.frame = 10;
         snd_play(fire0_snd, 100, 0);
@@ -251,7 +251,7 @@ action ABoss1()
         my.frame = 2;
       }
     if (FPlayerLife > 0)
-      if (vec_dist(my.x, player.x) > my.skill3) // ïîêà èãðîê äàëåêî- èäåì ê íåìó
+      if (vec_dist(my.x, player.x) > my.skill3) // ГЇГ®ГЄГ  ГЁГЈГ°Г®ГЄ Г¤Г Г«ГҐГЄГ®- ГЁГ¤ГҐГ¬ ГЄ Г­ГҐГ¬Гі
       {
         lattacktimer = my.skill1;
         //  if (my.x>player.x){lplayer_direction=-1;}
@@ -288,7 +288,7 @@ action ABoss1()
             if (FPlayerAttack > 50)
             {
               my.frame = 13;
-              my.skill5 = my.skill5 - ((FAttackType * FPlayerWeaponMuliplex / 2) * (0.5 / LevelMultiptex)); //ïîëó÷åíèå óðîíà
+              my.skill5 = my.skill5 - ((FAttackType * FPlayerWeaponMuliplex / 2) * (0.5 / LevelMultiptex)); //ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ ГіГ°Г®Г­Г 
               snd_play(hit_snd, 100, 0);
               lattackpercent = 0;
               wait(-1);
