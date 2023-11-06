@@ -3,11 +3,12 @@
 SOUND* lift_snd = "files/machan.wav"; 
 SOUND* cage_snd = "files/explo.wav"; 
 
+
 action cutscenesprite()
 {
 	my.scale_x = 1.907;
-		my.scale_y = 1.907;
-			my.scale_z = 1.907;
+	my.scale_y = 1.907;
+	my.scale_z = 1.907;
 }
 
 action guitarV()
@@ -91,14 +92,12 @@ function Level4Ending()
 	fade_in();
 	wait(-2);
 	level_load("files/lvl43.wmb");
-	ENTITY* mv = ent_create("files/mv+2.dds",vector(43,0,86),amv);
+	ENTITY* mv = ent_create("files/mv+2.dds",vector(43,0,70),amv);
 	ENTITY* pl = ent_create("files/playerL+20.dds",vector(-144,0,0),apl);
 	fade_out();
 	wait(-1);
-	ShowDialog=1;
-	DialogId=15;
-	wait(-2);
-	DialogId=16;
+	Dialog(2,15);while(FDialog==1){wait(1);}
+	Dialog(2,16);
 	mv.frame=2;
 	FCutScene=1;
 	while(pl.x<21)
@@ -108,28 +107,24 @@ function Level4Ending()
 	}
 	FCutScene=0;
 	ENTITY* br = ent_create("files/beer.dds",vector(69,-10,20),abr);
-	DialogId=17;
-	wait(-4);
-	mv.frame=1;
-	DialogId=18;
+	Dialog(4,17);while(FDialog==1){wait(1);}
 	
-	wait(-4);
-	DialogId=19;
-	wait(-4);
 	mv.frame=1;
-	DialogId=20;
-	wait(-4);
-	DialogId=21;
-	wait(-4);
-	DialogId=22;
-	wait(-4);
-	DialogId=23;
+	Dialog(4,18);while(FDialog==1){wait(1);}
 	mv.frame=2;
-	wait(-4);
-	DialogId=24;
-	wait(-4);
-	DialogId=25;
-	wait(-4);
+	Dialog(4,19);while(FDialog==1){wait(1);}
+	mv.frame=1;
+	Dialog(4,20);while(FDialog==1){wait(1);}
+	mv.frame=2;
+	Dialog(4,21);while(FDialog==1){wait(1);}
+	mv.frame=1;
+	Dialog(4,22);while(FDialog==1){wait(1);}
+	mv.frame=2;
+	Dialog(4,23);while(FDialog==1){wait(1);}
+	mv.frame=1;
+	Dialog(4,24);while(FDialog==1){wait(1);}
+	mv.frame=2;
+	Dialog(4,25);while(FDialog==1){wait(1);}
 	ShowDialog=0;
 	set(LevelSelect,SHOW);
 }

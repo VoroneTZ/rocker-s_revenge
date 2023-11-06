@@ -69,3 +69,26 @@ var FStatTotal=0;
 
 var FKey=0;
 
+var FDialog=0;
+
+function Dialog(var ATime, var ADialog)
+{
+	FDialog=1;
+	var i=0;	
+	while (key_space){wait(-0.1);}
+	ShowDialog=1;
+	while (i<ATime)
+	{
+		DialogId = ADialog;
+		i = i + time_step/16;
+		wait(1);	
+		if (key_space)
+		{
+			break;			
+		}
+	}
+	while (key_space){wait(1);}
+	DialogId=0;
+	ShowDialog=0;
+	FDialog=0;
+}

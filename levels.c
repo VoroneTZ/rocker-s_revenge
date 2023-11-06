@@ -16,26 +16,23 @@ function StartLevel1()
 	{
 	while(i<15)
 	{
-	FCutScene =2;
-	wait(-0.2);
-	FCutScene =3;
-	wait(-0.2);
-	i=i+1;
+		FCutScene =2;
+		wait(-0.2);
+		FCutScene =3;
+		wait(-0.2);
+		i=i+1;
 	}
 	FCutScene =5;
 	ENTITY* rap1= ent_create("files/rap1+9.dds",vector(-349,-116,179),cutscenesprite);
 	wait(-1);
 	
-	DialogId=1;
-  	ShowDialog=1;
-	wait(-3);
-	DialogId=2;
-	wait(-2);
-	DialogId=3;
-	wait(-2);
-	ShowDialog=0;	
+	Dialog(3,1);while(FDialog==1){wait(1);}
+	Dialog(2,2);while(FDialog==1){wait(1);}
+	Dialog(2,3);while(FDialog==1){wait(1);}
+	
 	ent_remove(rap1);
 	FCutScene =0;
+	
 	}
 	deathcounter=0;
 	FPlayerCanMove =1;

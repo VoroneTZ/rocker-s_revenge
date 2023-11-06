@@ -176,12 +176,10 @@ function main()
   vec_set(camera.pan,vector(0,-15,0));
   
 camera.arc=20;
-  
+
   FirstTitles();
   FInventory[3]=1;
-  
- DialogLoop();
-  
+  DialogLoop();
   while (1)
   {
   	if (joy_hat==0)  {if (FWeaponRating[3][0]==1){FPlayerWeapon=3;}}
