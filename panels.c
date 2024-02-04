@@ -23,6 +23,7 @@ BMAP* pause2bmp = "files/pause2.dds";
 PANEL* main_menu;
 PANEL* shop_menu;
 PANEL* pan_pause;
+PANEL* pan_authors;
 
 function LoadGame()
 {
@@ -99,22 +100,11 @@ PANEL* zo_logo =
 	flags = OVERLAY | OUTLINE;
 }
 
-PANEL* panel_black_menu =
-{
-	pos_x = 0; pos_y = 0;
-	size_x = 1920; size_y = 1080;
-	red = 0;
-	green = 0;
-	blue = 0;
-		layer = 9;
-	flags = LIGHT | SHOW | TRANSLUCENT ;
-	
-}
 
 PANEL* panel_black =
 {
 	pos_x = 0; pos_y = 0;
-	size_x = 1920; size_y = 1080;
+	size_x = 100; size_y = 100;
 	red = 0;
 	green = 0;
 	blue = 0;
@@ -128,7 +118,7 @@ PANEL* panel_black =
 PANEL* panel_red =
 {
 	pos_x = 0; pos_y = 0;
-	size_x = 1920; size_y = 1080;
+	size_x = 100; size_y = 100;
 	red = 255;
 	green = 0;
 	blue = 0;
@@ -137,6 +127,27 @@ PANEL* panel_red =
 	
 }
 
+PANEL* panel_green =
+{
+	pos_x = 0; pos_y = 0;
+	size_x = 100; size_y = 100;
+	red = 0;
+	green = 255;
+	blue = 0;
+		layer = 3;
+	flags = LIGHT | TRANSLUCENT | SHOW ;
+	
+}
+
+function show_greenpanel()
+{
+	panel_green.alpha=20;
+	while(panel_green.alpha>0)
+	{
+		panel_green.alpha=panel_green.alpha-1*time_step;
+		wait(1);
+	}
+}
 
 
 function StartGameEasy()
@@ -158,28 +169,46 @@ function StartGameHard()
 }
 
 
-
+#ifdef LRus	
 PANEL* LevelSelect =
 {
 	pos_x = 0;
 	pos_y = 0;
 	bmap = menubmp;
+	
 	digits(60,30, "ВЫБОР УРОВНЯ", "Courier#40bi", 1, NULL);
 	
-	digits(30,100, "Легкий                < %2.0f >", "Courier#30b", 1, LevelProgressEasy);  
-	digits(30,150, "Нормальный            < %2.0f >", "Courier#30b", 1, LevelProgressNormal); 
-	digits(30,200, "Сложный               < %2.0f >", "Courier#30b", 1, LevelProgressHard); 
+	
+	digits(30,100, "Легкий", "Courier#30b", 1, NULL);  
+	digits(30,150, "Нормальный", "Courier#30b", 1, NULL); 
+	digits(30,200, "Сложный", "Courier#30b", 1, NULL); 
+	
+	digits(400,100, "<", "Courier#30b", 1, NULL);  
+	digits(400,150, "<", "Courier#30b", 1, NULL); 
+	digits(400,200, "<", "Courier#30b", 1, NULL); 
+	
+	digits(480,100, ">", "Courier#30b", 1, NULL);  
+	digits(480,150, ">", "Courier#30b", 1, NULL); 
+	digits(480,200, ">", "Courier#30b", 1, NULL); 
+	
+	digits(430,100, "%2.0f", "Courier#30b", 1, LevelProgressEasy);  
+	digits(430,150, "%2.0f", "Courier#30b", 1, LevelProgressNormal); 
+	digits(430,200, "%2.0f", "Courier#30b", 1, LevelProgressHard); 
 //	digits(30,250, "Очень сложный         < %.1f >", "Courier#30b", 1, NULL); 
 //	digits(30,300, "Димас должен умереть  < %.1f >", "Courier#30b", 1, NULL); 
 //	digits(30,350, "Рок или рэп           < %.1f >", "Courier#30b", 1, NULL);	
    digits(30,400, "РЕЙТИНГ", "Courier#30b", 1, NULL);
    digits(30,450, "ГАЛЕРЕЯ", "Courier#30b", 1, NULL);
-	digits(30,500, "Сохранить   Загрузить   Выход", "Courier#30b", 1, NULL);
+	digits(30,500, "Сохранить", "Courier#30b", 1, NULL);
+	digits(230,500, "Загрузить", "Courier#30b", 1, NULL);
+	digits(430,500, "Выход", "Courier#30b", 1, NULL);
 	
 	button=400,100,button10pcx,button10pcx,button10pcx,min_easy,NULL,NULL;
 	button=480,100,button10pcx,button10pcx,button10pcx,plus_easy,NULL,NULL;
+	
 	button=400,150,button10pcx,button10pcx,button10pcx,min_norm,NULL,NULL;
 	button=480,150,button10pcx,button10pcx,button10pcx,plus_norm,NULL,NULL;
+	
 	button=400,200,button10pcx,button10pcx,button10pcx,min_hard,NULL,NULL;
 	button=480,200,button10pcx,button10pcx,button10pcx,plus_hard,NULL,NULL;
 	
@@ -187,14 +216,17 @@ PANEL* LevelSelect =
 	button=30,150,button60pcx,button60pcx,button60pcx,StartGameNorm,NULL,NULL;
 	button=30,200,button60pcx,button60pcx,button60pcx,StartGameHard,NULL,NULL;
 	button=30,450,button60pcx,button60pcx,button60pcx,NULL,NULL,NULL;
+	
 	button=30,500,button60pcx,button60pcx,button60pcx,SaveGame,NULL,NULL;
 	button=230,500,button60pcx,button60pcx,button60pcx,LoadGame,NULL,NULL;
 	button=430,500,button60pcx,button60pcx,button60pcx,Exit1,NULL,NULL;
+	
 	button=30,400,button60pcx,button60pcx,button60pcx,NULL,NULL,NULL;
 	
 	layer = 10;
 	flags = OVERLAY | OUTLINE;
 }
+#endif
 
 PANEL* panel_dialog =
 {
@@ -231,7 +263,30 @@ function DialogLoop()
   	 if (ShowDialog==1){set(DialogText_panel,SHOW);set(panel_dialog,SHOW);ShowDialog=3; }
   	 if (ShowDialog==0){reset(DialogText_panel,SHOW);reset(panel_dialog,SHOW);ShowDialog=3; }
   	 
+  	 if (DialogId==-6){
+  	 	pan_setstring(DialogText_panel,1,0,0,my_font,str_create("*Обучение"));
+  	 	pan_setstring(DialogText_panel,2,0,50,my_font,str_create("Зажмите ЛКМ во время двойного прыжка"));
+  	 	pan_setstring(DialogText_panel,3,0,100,my_font,str_create("для специальной атаки"));
+  	 	DialogId=0;}
   	 
+  	 if (DialogId==-5){
+  	 	pan_setstring(DialogText_panel,1,0,0,my_font,str_create("*Обучение"));
+  	 	pan_setstring(DialogText_panel,2,0,50,my_font,str_create("Используйте пробел для прыжка"));
+  	 	pan_setstring(DialogText_panel,3,0,100,my_font,str_create("Удерживайте пробел для двойного прыжка"));
+  	 	DialogId=0;}
+  	 	
+  	 if (DialogId==-4){
+  	 	pan_setstring(DialogText_panel,1,0,0,my_font,str_create("*Обучение"));
+  	 	pan_setstring(DialogText_panel,2,0,50,my_font,str_create("Используйте ЛКМ для удара"));
+  	 	pan_setstring(DialogText_panel,3,0,100,my_font,str_create("Удерживайте для сильного удара"));
+  	 	DialogId=0;}
+  	 	
+  	 if (DialogId==-3){
+  	 	pan_setstring(DialogText_panel,1,0,0,my_font,str_create("*Обучение"));
+  	 	pan_setstring(DialogText_panel,2,0,50,my_font,str_create("Используйте кнопки A и D для передвижения"));
+  	 	pan_setstring(DialogText_panel,3,0,100,my_font,str_create(""));
+  	 	DialogId=0;}
+  	 	
   	 if (DialogId==-2){
   	 	pan_setstring(DialogText_panel,1,0,0,my_font,str_create("Собери 4 пластинки из одного альбома"));
   	 	pan_setstring(DialogText_panel,2,0,50,my_font,str_create("для изучания супер соло на гитаре!"));
@@ -392,7 +447,7 @@ function DialogLoop()
   	 	if (DialogId==25){
   		pan_setstring(DialogText_panel,1,0,0,my_font,str_create("*Конец демо-версии"));
   	 	pan_setstring(DialogText_panel,2,0,50,my_font,str_create("Продолжение следует..."));
-  	 	pan_setstring(DialogText_panel,3,0,100,my_font,str_create("Специально для IGDC.RU"));
+  	 	pan_setstring(DialogText_panel,3,0,100,my_font,str_create(""));
   	 	DialogId=0;} 
   	 	
   	 wait(2);
@@ -440,10 +495,45 @@ function ShowLevelSelect()
 	set(LevelSelect,SHOW);
 }
 
-function Authors()
+
+
+PANEL* pan_authors =
 {
+	pos_x = 0;
+	pos_y = 0;
+	bmap = menubmp;
+	
+	digits(60,30, "Авторы", "Courier#40bi", 1, NULL);
+	
+	
+	digits(30,100, "Ведущий разработчик: Воронцов Дмитрий", "Courier#30b", 1, NULL);  
+	digits(30,150, "Левел дизайн: Воронцов Дмитрий", "Courier#30b", 1, NULL); 
+	digits(30,200, "Оператор: Воронцов Дмитрий", "Courier#30b", 1, NULL); 
+	digits(30,250, "Художник: Воронцов Дмитрий, Шипилов Сергей", "Courier#30b", 1, NULL); 
+	digits(30,300, "Сценарист: Воронцов Дмитрий, Евгений Басов", "Courier#30b", 1, NULL); 
+	digits(30,350, "Актеры: Воронцов Дмитрий, Евгений Басов, Ольшанский Михаил", "Courier#30b", 1, NULL); 
+	digits(60,400, "        Горбов Сергей, Бобрышев Арсений, ЧернЯвский", "Courier#30b", 1, NULL); 
+	digits(60,450, "        Салтанов Александр, ГрЯзев Алексей", "Courier#30b", 1, NULL); 
+	
+	digits(60,500, "Назад", "Courier#30b", 1, NULL);
+	
+	button=60,500,button60pcx,button60pcx,button60pcx,ShowMainMenu,NULL,NULL;
+	
+	layer = 10;
+	flags = OVERLAY | OUTLINE;
 }
 
+function ShowMainMenu()
+{
+	reset(pan_authors,SHOW);
+	set(main_menu,SHOW);
+}
+
+function Authors()
+{
+	reset(main_menu,SHOW);
+	set(pan_authors,SHOW);
+}
 
 PANEL* main_menu =
 {
@@ -785,6 +875,7 @@ function use_beer()
 	if (FPlayerHealth<20*(0.5/LevelMultiptex))
 	{
 		if (FInventory[0]>0){
+			show_greenpanel();
 			FPlayerHealth=FPlayerHealth+3;
 			FInventory[0]=FInventory[0]-1;}
 	}

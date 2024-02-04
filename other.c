@@ -220,15 +220,49 @@ action Elevator()
   }
 }
 
+action AExplo()
+{
+	set(my,PASSABLE);
+	set(my,OVERLAY);
+	my.y=my.y-50;
+	my.skill1=0;
+	my.frame=1;
+	while(my.skill1 < 13) 
+   {
+   	my.skill1 +=1;
+   	my.frame += 1;
+      wait(-0.1);
+   }
+   ent_remove(me);
+}
+
+function ShowStudy2()
+{
+	if (FStudy2==0)
+	{
+		FStudy2=1;
+		Dialog(6, -6);	
+		wait(-6);
+	   DialogId = 0;
+      ShowDialog = 0;
+      FDialog = 0;
+	}		
+}
 
 action Cage()
 {
   while (vec_dist(my.x, player.x) > 300 || FAttackType != 3 || my.z > player.z || FPlayerWeapon != 0)
   {
+  	 if (vec_dist(my.x, player.x) < 300)
+  	 {ShowStudy2();}
     wait(1);
   }
-
-  snd_play(cage_snd, 100, 0);
+  
+	ent_create("files/explo+13.tga",my.x,ABlood);
+	snd_play(cage_snd, 100, 0);
+	my.z=my.z-4000;
+  
+  wait(-6);
   ent_remove(me);
 }
 
@@ -337,10 +371,22 @@ action ADrummer()
 
 action Vinyl()
 {
+  var initz=my.z;
+  var direction=0;	
   if (FVinyls[my.skill1][my.skill2] == 0)
   {
     while (vec_dist(my.x, player.x) > 50)
     {
+    	if (direction==0)
+    	{
+    		my.z=my.z+4*time_step;
+    		if (my.z>initz+20){direction=1;}
+    	}
+    	else
+    	{
+    		my.z=my.z-4*time_step;
+    		if (my.z<initz-20){direction=0;}
+    	}
       wait(1);
     }
     FVinyls[my.skill1][my.skill2] = 1;
@@ -358,12 +404,16 @@ action Vinyl()
   ent_remove(me);
 }
 
+
 action Beer()
 {
   while (vec_dist(my.x, player.x) > 50)
   {
     wait(1);
   }
+  show_greenpanel();
   FPlayerHealth = FPlayerHealth + 2;
+  my.z=my.z-1000;
+  wait(-2);
   ent_remove(me);
 }

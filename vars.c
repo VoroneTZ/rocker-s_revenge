@@ -1,4 +1,4 @@
-var debug = 0;
+var debug = 1;
 var deathcounterwork = 0;
 var deathcounter = 0;
 var FBossHealth = 0;
@@ -22,9 +22,11 @@ var FPlayerAttack = 0;
 var FPlayerAttackDmg = 0;
 var FPlayerComboId = 0;
 var FAttackType = 0;
-
+var FLanguage=0;
 var FStudyGuitar = 0;
 var FStudyVinyl = 0;
+var FStudy1 = 0;
+var FStudy2 = 0;
 
 var DialogId;
 var ShowDialog = 3;

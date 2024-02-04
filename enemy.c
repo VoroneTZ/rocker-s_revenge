@@ -2,6 +2,21 @@
 #include "player.c";
 var boss_coins = 1000;
 
+action ABlood()
+{
+	set(my,PASSABLE);
+	set(my,OVERLAY);
+	my.skill1=0;
+	my.frame=1;
+	while(my.skill1 < 4) 
+   {
+   	my.skill1 +=1;
+   	my.frame += 1;
+      wait(-0.1);
+   }
+   ent_remove(me);
+}
+
 //skill5= health, 4=speed, 3=near, 2=far, 1=timer
 action ANPC()
 {
@@ -83,6 +98,7 @@ action ANPC()
             if (FPlayerAttack > 50) {
               my.skill5 = my.skill5 - FPlayerWeaponMuliplex * FAttackType;
               snd_play(hit_snd, 100, 0);
+              ent_create("files/blood+4.tga",my.x,ABlood);
               if (my.skill5 > 0) {
                 my.frame = 1;
                 lattacktimer = my.skill1;
@@ -290,6 +306,7 @@ action ABoss1()
               my.frame = 13;
               my.skill5 = my.skill5 - ((FAttackType * FPlayerWeaponMuliplex / 2) * (0.5 / LevelMultiptex)); //ГЇГ®Г«ГіГ·ГҐГ­ГЁГҐ ГіГ°Г®Г­Г 
               snd_play(hit_snd, 100, 0);
+              ent_create("files/blood+4.tga",my.x,ABlood);
               lattackpercent = 0;
               wait(-1);
             }

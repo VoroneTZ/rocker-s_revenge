@@ -1,5 +1,12 @@
 #include "vars.c";
+
+#ifdef LRus
 #include "panels.c";
+#endif
+#ifdef LEng
+#include "panelsEng.c";
+#endif
+
 SOUND* miss_snd = "files/miss.wav"; 
 SOUND* fire0_snd = "files/fire-0.wav"; 
 SOUND* lift_snd = "files/machan.wav"; 
@@ -26,7 +33,10 @@ function show_redpanel()
 		panel_red.alpha=panel_red.alpha-1*time_step;
 		wait(1);
 	}
+	panel_red.alpha=0;
 }
+
+
 
 function FHitPlayer()
 {
@@ -144,9 +154,21 @@ action ARealPlayer()
         }
       }
     }
-    camera.x = my.x;
+    if (camera.x<(my.x)){camera.x+=3*time_step;}
+    if (camera.x>(my.x)){camera.x-=3*time_step;}
+    
+    if (camera.x<(my.x-50)){camera.x=(my.x-50);}
+    if (camera.x>(my.x+50)){camera.x=(my.x+50);}
+    
     camera.y = my.y - 4738;
-    camera.z = my.z + 76;
+    
+    if (camera.z<(my.z+ 76)){camera.z+=3*time_step;}
+    if (camera.z>(my.z+ 76)){camera.z-=3*time_step;}
+    
+    if (camera.z<(my.z+ 76-50)){camera.z=(my.z+ 76-50);}
+    if (camera.z>(my.z+ 76+50)){camera.z=(my.z+ 76+50);}
+    
+   // camera.z = my.z + 76;
     camera.pan = -270;
     camera.tilt = 0;
     wait(1);

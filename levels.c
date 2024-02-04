@@ -1,6 +1,27 @@
 #include "vars.c";
+
+#ifdef LRus
 #include "panels.c";
+#endif
+#ifdef LEng
+#include "panelsEng.c";
+#endif
+
 #include "other.c";
+
+function ShowStudy1()
+{
+	if (FStudy1==0)
+	{
+		FStudy1=1;
+		Dialog(3, -3);
+		wait(-4);
+		Dialog(3, -4);
+		wait(-4);
+		Dialog(3, -5);	
+	}	
+	
+}
 
 function StartLevel1()
 {
@@ -40,6 +61,7 @@ function StartLevel1()
     FCutScene = 0;
 
   }
+  ShowStudy1();
   deathcounter = 0;
   FPlayerCanMove = 1;
   ENTITY* gen1 = ent_create("files/rockenemy1+9.dds", vector(-349, -116, 179), npc_generator);

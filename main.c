@@ -1,8 +1,15 @@
 ///////////////////////////////
+#define LRus
 #include <acknex.h>
 #include <default.c>
 
+#ifdef LRus
 #include "panels.c";
+#endif
+#ifdef LEng
+#include "panelsEng.c";
+#endif
+
 #include "vars.c";
 #include "levels.c";
 #include "player.c";
@@ -79,15 +86,30 @@ function StartLevel()
   on_joy8 = pause_game;
 }
 
+function StretchPanel(PANEL* APan)
+{
+  APan.scale_x = screen_size.x/APan.size_x;
+  APan.scale_y = screen_size.y/APan.size_y;
+}
+
 function FirstTitles()
 {
   panel_red.alpha = 0;
+  panel_green.alpha = 0;
   FMusic = media_loop("files/metallica-master_of_puppets.mid", NULL, 100);
   panel_black.alpha = 100;
   var i = 50;
-
-  LevelSelect.pos_x = (screen_size.x - bmap_width(LevelSelect.bmap)) / 2;
-  LevelSelect.pos_y = (screen_size.y - bmap_height(LevelSelect.bmap)) / 2;
+  
+  StretchPanel(LevelSelect);
+  StretchPanel(main_menu);
+  StretchPanel(pan_authors);
+  StretchPanel(panel_black);
+  StretchPanel(panel_red);
+  StretchPanel(panel_green);
+  
+  
+//  LevelSelect.pos_x = (screen_size.x - bmap_width(LevelSelect.bmap)) / 2;
+ // LevelSelect.pos_y = (screen_size.y - bmap_height(LevelSelect.bmap)) / 2;
 
 
   pan_pause.pos_x = (screen_size.x - bmap_width(pan_pause.bmap)) / 2;
@@ -96,8 +118,6 @@ function FirstTitles()
   pan_pause2.pos_x = (screen_size.x - bmap_width(pan_pause.bmap)) / 2;
   pan_pause2.pos_y = (screen_size.y - bmap_height(pan_pause.bmap)) / 2;
 
-  main_menu.pos_x = (screen_size.x - bmap_width(main_menu.bmap)) / 2;
-  main_menu.pos_y = (screen_size.y - bmap_height(main_menu.bmap)) / 2;
 
   panel_dialog.pos_x = (screen_size.x - bmap_width(panel_dialog.bmap)) / 2;
 
@@ -190,16 +210,19 @@ function main()
   on_esc = beep;
   FWeaponRating[0][0] = 1;
   var i = 0;
-  video_mode = 12;
+//	video_window(vector(500,300,0),nullvector,1,NULL);
+	video_window(NULL, NULL, 1, "Rocker`s Revenge");
+  
+  video_set(sys_metrics(0), sys_metrics(1), 0, 2); 
 
   // video_screen = 1;
   mouse_mode = 4;
   wait(1);
   vec_set(screen_color, vector(1, 1, 1)); // dark blue
-  vec_set(sky_color, vector(50, 1, 1)); // dark blue
-  video_window(NULL, NULL, 0, "Rocker`s Revenge");
+  vec_set(sky_color, vector(240, 187, 63)); // dark blue
+  
   d3d_antialias = 1;
-  shadow_stencil = 3;
+  shadow_stencil = 0;
 
   // level_load("my_level.wmb");
   vec_set(camera.x, vector(-250, 0, 50));
