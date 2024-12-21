@@ -30,6 +30,7 @@ function StartLevel1()
   wait(-2);
   FMusic = media_loop("files/metallica-fuel.mid", NULL, 100);
   level_load("files/lvl1.wmb");
+    vec_set(sky_color, vector(0, 0, 0)); // dark blue
   fade_out();
   wait(-1);
   FPlayerCanMove = 0;
@@ -125,6 +126,7 @@ function StartLevel1()
 function StartLevel2()
 {
   level_load("files/lvl2.wmb");
+    vec_set(sky_color, vector(240, 187, 63)); // dark blue
   fade_out();
   FMusic = media_loop("files/megadeth-she_wolf.mid", NULL, 100);
 }
@@ -132,6 +134,7 @@ function StartLevel2()
 function StartLevel3()
 {
   level_load("files/lvl3.wmb");
+    vec_set(sky_color, vector(240, 187, 63)); // dark blue
   fade_out();
   FMusic = media_loop("files/zz_top-beer_drinkers_hell_raisers.mid", NULL, 100);
 
@@ -141,6 +144,7 @@ function StartLevel3()
 function StartLevel4()
 {
   level_load("files/lvl4.wmb");
+    vec_set(sky_color, vector(240, 187, 63)); // dark blue
   fade_out();
   FMusic = media_loop("files/osbourne_ozzy-crazy_train.mid", NULL, 100);
   ShowGuitar();

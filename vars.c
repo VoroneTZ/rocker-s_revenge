@@ -1,4 +1,4 @@
-var debug = 1;
+var debug = 0;
 var deathcounterwork = 0;
 var deathcounter = 0;
 var FBossHealth = 0;

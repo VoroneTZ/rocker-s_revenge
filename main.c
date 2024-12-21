@@ -219,7 +219,7 @@ function main()
   mouse_mode = 4;
   wait(1);
   vec_set(screen_color, vector(1, 1, 1)); // dark blue
-  vec_set(sky_color, vector(240, 187, 63)); // dark blue
+  vec_set(sky_color, vector(0, 0, 0)); // dark blue
   
   d3d_antialias = 1;
   shadow_stencil = 0;
